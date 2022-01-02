@@ -3,7 +3,7 @@ import image from '../components/Matthew-Bowler-resumeDec2021.pdf'
 
 const Footer = () => {
     return (
-      <header  className='flex bg-blue-400 text-white-100 text-3xl font-bold hover:text-white'>
+      <footer  className='footer p-10 bg-blue-400 text-white-100 text-3xl font-bold hover:text-white footer-center'>
       <div className='container mx-auto flex justify-between'>
           <a href={image}
           target="_blank"
@@ -12,7 +12,7 @@ const Footer = () => {
             <i class="fas fa-cloud text-white"></i> Download Resume
           </a>
         </div>
-      </header>
+      </footer>
    
     )
 }
